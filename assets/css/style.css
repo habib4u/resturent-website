@@ -1,0 +1,579 @@
+/*================================================
+        Author: Orange group
+        Fonts :Google font
+        font-family: 'Lato', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+
+================================================*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*======================
+     nav brand  started
+======================*/
+.my-nav-brand{
+    padding-left: 0px;
+    background-color: #ffbb00 ;
+    width: 356px;
+}
+ #header a{
+    color: white;
+    font-size: 31px;
+    padding-top: 20px;
+    padding-right: 0px;
+    font-weight: 400;
+
+}
+#header a:hover{
+    color: #747474;
+}
+/*=======nav brand end ==========*/
+
+/*======Menu Bar stared==========*/
+.my-nav{
+    padding-left: 0px;
+    padding-top: 38px;
+}
+
+#header ul
+{
+    margin-left: 170px;
+}
+#header ul li {
+   margin-right: 10px;
+}
+#header ul li a {
+    color: white;
+    font-size: 31px;
+
+}
+#header ul li a:hover{
+    color:#ffba00;
+
+}
+/*======Menu Bar End===========*/
+
+/*====Top page stared===== */
+header{
+    background-image: url(../photo/home-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 780px;  
+    width: 100%;
+    color: rgb(253, 253, 253);
+
+}
+
+.hm-text{
+    color:white;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding-top: 265px ;
+}
+
+.yellow-section{
+    background-color: #ffba00;
+    position: absolute;
+    height: 200px;
+}
+
+.g-opening{
+    font-size: 75px;
+    height: 192px;
+    width: 567px;
+    font-weight: bolder;
+    margin-left: 320px ;
+    position: absolute;
+    margin-top: 35px;
+
+}
+.read-more{
+    height: 85px;
+    width: 333px;
+    margin-top: 155px;
+    background-color: #ffba00;
+    color: white;
+    margin-left: 65px;
+
+}
+.read-more:hover{
+    color: #ffba00;
+    background-color: white;
+   
+}
+/*===Top page style finished ====*/
+
+/*====whats new style started====*/
+#whats-new{
+    width: 100%;
+    height: 600px;
+    background-color: #242424;
+    color: white;
+    position: relative;
+
+}
+.w-new-text{
+    font-weight: 600;
+    letter-spacing: 5px;
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    top: 141px;
+    left: 299px;
+}
+
+.whats-new-img{
+    background-image: url(../photo/whats-new.png);
+    width: 621px;
+    height: 421px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    
+} 
+.hz-y-shades{
+    position: absolute;
+    background-color: #ffbb00;
+    height: 190px;
+    width: 800px;
+    top: 0px;
+    bottom: 0px;
+    left: px;
+    right: 400px;
+    margin: auto;
+
+}
+#l-text{
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    font-size: 26px;
+    font-weight: 500;
+    top: 60px;
+    bottom: 0px;
+    left: 0px;
+    right: 200px;
+    margin: auto;
+}
+#whats-new #n-format{
+    transform: rotate(270deg);
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    width: 319px;
+    height: 37px;
+    left: 0px;
+    right: 950px;
+    top: 0px;
+    bottom: 29px;
+    margin: auto;
+    letter-spacing: 6px;
+}
+
+/*====whats new style started====*/
+
+/*====2nd page started===== */
+.card-text h3{
+    color: #ffba00;
+    font-family: Montserrat;
+    font-weight: 800;   
+}
+.card-text p{
+    font-family: Lato;
+}
+.card-text{
+    padding: 50px;
+}
+.scnd-bg{
+    width: 100%;
+    height: 1200px;
+    background-image: url(../photo/second-sec.png);
+    background-size: cover;
+    
+}
+.pzzeria{
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #ffba00;
+    margin-left: 500px;
+    padding-top: 40px;
+}
+.scnd-bg h3{
+    font-weight: 600;
+}
+.new-menu{
+    margin-top: 20px;
+    font-family: Montserrat;
+    width: 80%;
+    height: 100px;
+    color: #ffba00;
+    margin-left: 200px;
+
+}
+.border-1{
+    width: 80%;
+    height: 100px;
+    border-style: solid;
+    border-color: white;
+}
+.mdl-bg-color{
+    width: 900px;
+    height: 400px;
+    background-color: #ffba00;
+    margin-top: 100px;
+    position: relative;
+}
+.rectangle-color{
+    width: 50px;
+    height: 430px;
+    background-color: #ffda00;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    opacity: 0.5;
+}
+.rd-sec-txt{
+    font-family: Lato;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.rd2-sec-txt{
+    font-family: Lato;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+.rd3-sec-txt{
+    font-family: Lato;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+.rd4-sec-txt{
+    font-family: Lato;
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 30px;
+}
+.ten{
+    margin-left: 340px;
+}
+.fourteen{
+    margin-left: 392px;
+}
+.tweenty{
+    margin-left: 323px;
+}
+.border-2{
+  
+  margin-top: 300px;
+  margin-right: 180px;
+  width: 65%;
+  height: 160px;
+  border-style: solid;
+  border-color: white;
+}
+.border-2-text{
+    font-family: Lato;
+    font-weight: 100;
+    width: 80%;
+    height: 100px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+/*====2nd page finished===== */
+/*====3rd page satarted===== */
+.third-sec-header{
+    width: 100%;
+    height: 380px;
+    background-color: #242424;
+}
+.our-concept{
+    color: #ffda00;
+    text-align: center;
+    padding-top: 120px;
+}
+.third-sec-header p{
+    color: white;
+    text-align: center;
+}
+.menu-sec-3 ul{
+    text-decoration: none;
+    padding-left: 400px;
+}
+.menu-sec-3 ul li{
+  display: inline;
+  padding-left: 25px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 700;
+}
+.menu-sec-3 ul li a{
+    display: inline;
+    list-style-type: none;
+    color: #ffffff; 
+}
+.menu-sec-3 ul li a{
+    text-decoration: none;
+}
+.menu-sec-3 ul li a:hover{
+  color: #ffba00;
+  transition: 0.9s;
+}
+.third-page-bg{
+    width: 100%;
+    height: 1100px;
+    background-image: url(../photo/3rd\ section-bg.png);
+    position: relative;
+}
+.master-class{
+padding-left: 800px;
+padding-top: 220px;
+    width: 311px;
+  height: 32px;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 2.1px;
+  color: #ffffff;
+}
+.thrd-rectng{
+    width: 420px;
+    height: 510px;
+    background-color: #ffba00;
+    position: absolute;
+    top: 330px;
+    right: 125px;
+}
+.recipie{
+    padding: 30px;
+  width: 414px;
+  height: 198px;
+  font-family: Lato;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.waiting-sec3{
+    padding-top: 50px;
+    padding-left: 60px;
+    color: white;
+    font-weight: bold;
+}
+.price-3rd-sec{
+    padding-left: 162px;
+    padding-top: 60px;
+  color: white;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.time-3rd-sec{
+  padding-left: 140px;
+  color: white;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 500;
+}
+.rect-3rd-sec{
+    width: 380px;
+    height: 110px;
+    background-color: #ffba00;
+    position: absolute;
+    top: 950px;
+    right: 125px;
+}
+.apply-3rd-sec{
+    color: white;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+/*====3rd page finished=====*/
+
+
+/*====gallery started=======*/
+#gallery{
+    background-color: #242424;
+    height: 690px;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+.y-color-shades-top{
+    background-color:#ffba00;
+    height: 215px;
+    width: 250px;
+    position: absolute;
+    left: 285px;
+    
+}
+#gallery h1{
+    position: absolute;
+    top: 113px;
+    left: 45%;
+    color: #ffbb00;
+    font-weight: bolder;
+}
+#gallery .gallery-image{
+    position: relative;
+}
+#gallery .gallery-left{
+    background-image: url(../photo/gallery-left.png);
+    background-repeat: no-repeat;
+    height: 475px;
+    position: absolute;
+    top: 215px;
+
+
+}
+#gallery .gallery-middle{
+    background-image: url(../photo/gallery-middle.png);
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 290px;
+    position: absolute;
+    top: 215px;
+    left:690px ;
+}
+#gallery .gallery-right{
+    background-image: url(../photo/gallery-right.png);
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 355px;
+    position: absolute;
+    top: 215px;
+    left:992px ;
+}
+/*=======gallery finished=====*/
+
+/* ======Footer started =====*/
+#contact{
+    color: white;
+}
+#contact .top-footer{
+    color: white;
+    background-color: #242424;
+    height: 565px;
+    width: 100%;
+    position: relative;
+}
+#contact .y-color-shades{
+    background-color:#ffba00;
+    height: 566px;
+    width: 250px;
+    position: absolute;
+    left: 285px;
+    
+}
+#contact h1{
+    position: absolute;
+    top: 113px;
+    left: 45%;
+}
+#contact .contact-text{
+    position: absolute;
+    top: 230px;
+    left: 375px;
+    height: 241px;
+    width: 355px;
+    text-align: justify;
+    font-size: 20px;
+}
+#contact .contact-text2{
+    position: absolute;
+    top: 230px;
+    left: 800px;
+    height: 241px;
+    width: 345px;
+}
+
+#contact p{
+    font-size: 20px;
+}
+#contact ul{
+    display: flex;
+    margin-left: 90px;
+}
+#contact ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+#contact ul li a{
+    font-size: 30px;
+    color: white;
+
+}
+#contact ul li a:hover{
+    font-size: 30px;
+    color: #ffba00;
+
+}
+#contact .r-website{
+    color: #ffba00;
+    font-size: 33px;
+    margin-left: 90px;
+    text-decoration: none;
+}
+#contact .r-website:hover{
+    color: white;
+    font-size: 38px;
+
+}
+#contact #bottom{
+    background-color: #483500;
+    height: 325px;
+}
+#contact #bottom .about-footer{
+    margin-left: 195px;
+    margin-top: 75px;
+}
+#contact #bottom .l-menu{
+    margin-left: 726px;
+    margin-top: -110px;
+}
+#contact #bottom .footer-menu{
+    font-weight: bold;
+
+}
+#contact #bottom #m-menu{
+    color: white;
+    text-decoration: none;
+}
+#contact #bottom #m-menu:hover{
+     color: #ffba00;
+ }
+ #contact .about-main-text{
+     font-weight: bold;
+
+ }
